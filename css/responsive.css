@@ -1,0 +1,86 @@
+/* menu star */
+
+@media all and (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .symptoms .colum .main-img img{
+        display: none;
+    }
+    .hand-wash .column .main-images img{
+        display: none;
+    }
+}
+@media all and (max-width:991px){
+
+    section{
+        padding: 1rem 3%;
+        padding-top: 8rem;
+    }
+    #menu {
+        display: block;
+    }
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        padding: 2rem;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+    header .navbar.nav-toggle{
+        transform: scaleY(1);
+        opacity: 1;
+    }
+      header .navbar a {
+        display: block;
+        margin: 1.5rem 0;
+        font-size: 2rem;
+    }
+    .fa-times{
+        transform: rotate(180deg);
+    }
+
+    .symptoms .colum .main-img img{
+        display: none;
+    }
+
+    .precautions .coulmn .box-container .box{
+        flex-flow: column;
+        text-align: center;
+    }
+    .doctor .box-container .box{
+        width: 100%;
+    }
+
+    .hand-wash .column .main-images img{
+        display: none;
+    }
+}
+
+/* menu end */
+
+@media all and (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    .home .content h1 {
+        font-size: 4rem;
+    }
+    .home .content h3 {
+        font-size: 3.5rem;
+    }
+}
+@media all and (max-width:450px){
+    .home .content h1 {
+        font-size: 3.5rem;
+    }
+    .home .content h3 {
+        font-size: 2.5rem;
+    }
+    
+}
